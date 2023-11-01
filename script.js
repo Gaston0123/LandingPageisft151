@@ -26,26 +26,26 @@ function handleFormSubmit(event) {
     const email = document.getElementById("email-input").value;
 
     if (course && name && email) {
-        // Aquí puedes realizar la lógica para enviar el formulario
+       
         console.log("Formulario enviado");
         console.log("Carrera:", course);
         console.log("Nombre:", name);
         console.log("Email:", email);
 
-        // Restablecer los campos del formulario
+       
         document.getElementById("course-select").selectedIndex = 0;
         document.getElementById("name-input").value = "";
         document.getElementById("email-input").value = "";
 
-        // Mostrar un mensaje de éxito
+        
         alert("Formulario enviado correctamente");
     } else {
-        // Mostrar un mensaje de error
+        
         alert("Por favor, completa todos los campos");
     }
 }
 
-/* // Cargar las opciones de carrera al cargar la página */
+
 window.onload = function () {
     generateCourseOptions();
     document.getElementById("registration-form").addEventListener("submit", handleFormSubmit);
