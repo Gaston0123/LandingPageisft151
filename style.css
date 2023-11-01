@@ -1,0 +1,43 @@
+#info_carreras{
+    background-color: rgb(136, 231, 253);
+    opacity: 1.5;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+
+}
+#Nuestras_Carreras {
+
+    background-color: rgb(136, 231, 253);
+    opacity: 1.5;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+}
+#fondo{
+    background-color:black
+}
+header{
+    color:rgb(255, 255, 255);
+    margin: 25px;
+}
+#Inscripcion{
+    background-color: rgb(136, 231, 253);
+    opacity: 1.5;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+
+}
+#Contacto{
+    background-color: rgb(136, 231, 253);
+    opacity: 1.5;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+}
+.text{ 
+    text-align: center;
+}
+#cabecera {
+text-align: center;
+}
+#picture{
+    text-align: center;
+}
